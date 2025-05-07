@@ -1,0 +1,20 @@
+.main-div {
+  width: 80vw;
+  height: 80vh;
+  background:
+    repeating-linear-gradient(
+      0deg,
+      black,
+      black 12.5%,
+      transparent 12.5%,
+      transparent 25%
+    ),
+    repeating-linear-gradient(
+      90deg,
+      white,
+      white 12.5%,
+      transparent 12.5%,
+      transparent 25%
+    );
+  border: 1px solid black;
+}
